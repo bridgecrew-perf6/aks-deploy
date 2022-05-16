@@ -35,10 +35,10 @@ on:
 
 env:
   AZURE_CONTAINER_REGISTRY: "pro4321acr"
-  CONTAINER_NAME: ""
+  CONTAINER_NAME: "main-app-container"
   RESOURCE_GROUP: "pro"
   CLUSTER_NAME: "pro-aks"
-  IMAGE_PULL_SECRET_NAME: "your-image-pull-secret-name"
+  IMAGE_PULL_SECRET_NAME: "acr-secret"
   DEPLOYMENT_MANIFEST_PATH: 'aks/aks.yaml'
 
 jobs:
